@@ -20,7 +20,7 @@
   "module": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
-    "build": "microbundle --format modern,esm,cjs",
+    "prepare": "microbundle --format modern,esm,cjs",
     "dev": "microbundle watch --format modern,esm,cjs",
     "postversion": "git push --follow-tags"
   },
